@@ -1,0 +1,111 @@
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+p{
+    color: #777;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-family: 'Lato', sans-serif;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    background-color: cornsilk;
+    cursor: default;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+}
+
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 95px;
+}
+.problem{
+    text-align: center;
+}
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    color: #fff;
+    transition: 0.5s;
+}
+/*----- trial -----*/
+
+#welcome {    position: absolute;    overflow: hidden;    height: 800px;    color: #FFFFFF;    left: 0;    top: 0;    bottom: 0;    right: 0;    opacity: 0.83;    background: linear-gradient(#d8eb34 0%, #34ebc9 100%);    display: table;    width: 100%;    height: 70%;}.parallax-inner {    display: table-cell;    position: relative;    text-align: center;    vertical-align: middle;}
+.line {    height: 6px;    background-color: #81e6b8;    width: 70px;    margin: 8px auto;}
+
+img{
+    margin: auto;
+    height: 85px;
+    width: 85px;
+}
+.appbtn{
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-family: 'Roboto Mono', monospace;
+}
+.btn:hover{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    transition: 1s;
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
